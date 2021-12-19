@@ -1,11 +1,13 @@
 {
-  "name": "gatsby-magento-source-error",
+  "name": "gatsby-source-magento2-gatsby4-error",
   "version": "1.0.0",
   "private": true,
-  "description": "Gatsby Magento Source Error",
-  "author": "prosellen",
+  "description": "Gatsby Source Magento2 produces errors when downloading images w/ Gatsby4",
+  "author": "Peter Rosellen <prosellen@users.noreply.github.com>",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "magento2",
+    "gatsby-source-magento2"
   ],
   "scripts": {
     "develop": "gatsby develop",
@@ -16,6 +18,7 @@
   },
   "dependencies": {
     "gatsby": "^4.4.0",
+    "gatsby-source-magento2": "2.4.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
